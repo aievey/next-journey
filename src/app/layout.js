@@ -1,4 +1,5 @@
 import "./globals.css";
+import Navigation from "@/ui/pizza-menu/top-nav";
 
 export const metadata = {
   title: "Create Next App",
@@ -8,6 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Navigation />
       <body>{children}</body>
     </html>
   );

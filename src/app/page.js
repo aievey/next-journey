@@ -1,7 +1,10 @@
+import PizzaMenu from "./pizza-menu";
+
 export default function Home() {
   return (
     <main>
-      <div>Hello world!</div>
+      <h1>aievey&apos;s Pizza co.</h1>
+      <PizzaMenu />
     </main>
   );
 }
