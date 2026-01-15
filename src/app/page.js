@@ -1,4 +1,4 @@
-import PizzaMenu from "./pizza-menu";
+import PizzaMenu from "./fast-next-pizza";
 
 export default function Home() {
   return (

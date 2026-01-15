@@ -3,24 +3,29 @@ import Link from "next/link";
 const links = [
   {
     id: 1,
-    link: "",
-    title: "cart",
-  },
-  {
-    id: 2,
-    link: "",
+    link: "/",
     title: "Home",
   },
   {
+    id: 2,
+    link: "/pizza-app/menu",
+    title: "Menu",
+  },
+  {
     id: 3,
-    link: "",
-    title: "orders",
+    link: "/pizza-app/order",
+    title: "Orders",
+  },
+  {
+    id: 4,
+    link: "/pizza-app/user",
+    title: "User",
   },
 ];
 export default function Navigation() {
   return (
-    <>
-      <ul className="flex">
+    <div className="bg-blue-200">
+      <ul className="flex justify-center items-center">
         {links.map((link) => (
           <li
             key={link.id}
@@ -30,6 +35,6 @@ export default function Navigation() {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
