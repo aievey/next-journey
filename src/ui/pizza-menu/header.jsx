@@ -23,7 +23,8 @@ export default function Navigation() {
     <div className="bg-amber-400">
       <Link href="/">
         <h2 className="mb-1.5 text-center text-2xl font-extrabold tracking-widest">
-          <span className="text-amber-600">aievey&apos;s</span> Pizza co.
+          <span className="text-amber-600 text-shadow-sm">aievey&apos;s</span>{" "}
+          Pizza co.
         </h2>
       </Link>
       <div className="flex justify-center">
