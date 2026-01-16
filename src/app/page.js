@@ -2,8 +2,7 @@ import PizzaMenu from "./fast-next-pizza";
 
 export default function Home() {
   return (
-    <main>
-      <h1>aievey&apos;s Pizza co.</h1>
+    <main className="h-full">
       <PizzaMenu />
     </main>
   );

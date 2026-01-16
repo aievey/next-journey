@@ -1,5 +1,6 @@
 import "./globals.css";
-import Navigation from "@/ui/pizza-menu/top-nav";
+import Navigation from "@/ui/pizza-menu/header";
+import CartOverview from "./pizza-app/cart/CartOverview";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,9 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex h-screen flex-col">
         <Navigation />
         {children}
+        <CartOverview />
       </body>
     </html>
   );
