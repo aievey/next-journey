@@ -17,11 +17,11 @@ function MenuItem({ pizza }) {
         <p className="text-sm font-light capitalize italic">
           {ingredients.join(", ")}
         </p>
-        <div className="w mt-auto flex items-center justify-end pr-3">
+        <div className="w mt-auto flex items-center justify-between pr-3">
           {!soldOut ? (
-            <p className="pr-2 text-sm">{formatCurrency(unitPrice)}</p>
+            <p className="text-sm">{formatCurrency(unitPrice)}</p>
           ) : (
-            <p className="pr-2 text-sm font-medium text-stone-500 uppercase">
+            <p className="text-sm font-medium text-stone-500 uppercase">
               Sold out
             </p>
           )}{" "}

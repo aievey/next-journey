@@ -31,7 +31,6 @@ export default function Navigation() {
         <div>
           <input
             placeholder="Search order"
-            value=""
             className="mx-1 w-40 rounded-2xl bg-amber-50 px-2"
           />
           <button className="mx-1 rounded-2xl bg-orange-400 px-4 shadow">
