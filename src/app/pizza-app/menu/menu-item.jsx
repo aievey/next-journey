@@ -1,4 +1,4 @@
-import { formatCurrency } from "@/lib/helpers";
+import { formatCurrency } from "@/lib/pizza-app-lib/helpers";
 import Image from "next/image";
 function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;

@@ -1,5 +1,5 @@
-import CartOverview from "./pizza-app/cart/CartOverview";
-import CreateUser from "./pizza-app/user/user";
+import CartOverview from "./cart/CartOverview";
+import CreateUser from "./user/user";
 export default async function PizzaMenu() {
   return (
     <>
