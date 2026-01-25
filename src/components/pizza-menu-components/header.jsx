@@ -3,7 +3,7 @@ import Link from "next/link";
 const links = [
   {
     id: 1,
-    link: "/",
+    link: "/pizza-app",
     title: "Home",
   },
   {
@@ -20,8 +20,8 @@ const links = [
 ];
 export default function Navigation() {
   return (
-    <div className="bg-amber-400">
-      <Link href="/">
+    <div className="fixed top-0 z-10 w-full bg-amber-400 shadow">
+      <Link href="/pizza-app">
         <h2 className="mb-1.5 text-center text-2xl font-extrabold tracking-widest">
           <span className="text-amber-600 text-shadow-sm">aievey&apos;s</span>{" "}
           Pizza co.

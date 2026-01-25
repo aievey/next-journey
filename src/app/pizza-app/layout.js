@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <div className="flex h-screen flex-col">
       <Navigation />
-      {children}
+      <div className="mt-25 h-full pb-15">{children}</div>
       <CartOverview />
     </div>
   );
