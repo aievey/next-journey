@@ -4,7 +4,14 @@ const nextConfig = {
   devIndicators: false,
   reactCompiler: true,
   images: {
-    remotePatterns: [new URL("https://dclaevazetcjjkrzczpc.supabase.co/**")],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "i.imgur.com",
+        port: "",
+        pathname: "**",
+      },
+    ],
   },
 };
 
