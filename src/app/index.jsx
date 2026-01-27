@@ -1,0 +1,47 @@
+import Image from "next/image";
+import { Pizza } from "lucide-react";
+import Link from "next/link";
+const linkList = [
+  {
+    id: 1,
+    url: "/pizza-app",
+    name: "Pizza App",
+    icon: Pizza,
+    svg: false,
+  },
+  {
+    id: 2,
+    url: "/react-dev",
+    name: "React.js",
+    icon: Pizza,
+    svg: "https://cdn.worldvectorlogo.com/logos/create-react-app.svg",
+  },
+];
+
+const Index = () => {
+  return (
+    <div className="flex h-full items-center justify-center bg-purple-200">
+      <div className="flex flex-col gap-4 text-lg font-semibold text-blue-400">
+        {linkList.map((link) => (
+          <Link
+            key={link.id}
+            href={link.url}
+            className="flex gap-4 rounded-lg p-2 duration-200 hover:bg-blue-200 hover:shadow"
+          >
+            {link.svg ? (
+              <div className="relative h-7 w-7 object-fill">
+                <Image src={link.svg} fill alt="logo" />
+              </div>
+            ) : (
+              <div className="h-7 w-7">
+                <link.icon />
+              </div>
+            )}
+            {link.name}
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+export default Index;

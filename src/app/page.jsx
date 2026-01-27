@@ -1,11 +1,5 @@
-import Link from "next/link";
-
+import Index from ".";
 const Home = () => {
-  return (
-    <div>
-      <Link href="/pizza-app">Pizza App</Link>
-      <Link href="/react-dev">Learn React</Link>
-    </div>
-  );
+  return <Index />;
 };
 export default Home;
