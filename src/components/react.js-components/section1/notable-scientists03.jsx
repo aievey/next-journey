@@ -8,11 +8,11 @@ const Profile = (prop) => {
     <section className="rounded-xl bg-cyan-100 p-4 text-stone-700">
       <h2>{prop.name}</h2>
       <Image
-        className="avatar"
+        className="rounded-full"
         src={getImageUrl(prop.url)}
         alt={prop.name}
-        width={70}
-        height={70}
+        width={80}
+        height={80}
       />
       <ul>
         <li>
