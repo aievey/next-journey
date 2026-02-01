@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Pizza } from "lucide-react";
+import { Pizza, Database } from "lucide-react";
 import Link from "next/link";
 const linkList = [
   {
@@ -13,8 +13,15 @@ const linkList = [
     id: 2,
     url: "/react-dev",
     name: "React.js",
-    icon: Pizza,
+    icon: "",
     svg: "https://cdn.worldvectorlogo.com/logos/create-react-app.svg",
+  },
+  {
+    id: 3,
+    url: "/databases",
+    name: "Server Side Development",
+    icon: Database,
+    svg: "https://cdn.worldvectorlogo.com/logos/postgresql-inc.svg",
   },
 ];
 
