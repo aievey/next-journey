@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="YyhU9IJxT9q3IkA-s0Nn">
-    <mxGraphModel dx="1763" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="887" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,7 +127,7 @@
           <mxGeometry height="15" width="15" x="52" y="506" as="geometry" />
         </mxCell>
         <mxCell id="NQuBBVoxGW89ZrMEEAn3-108" parent="NQuBBVoxGW89ZrMEEAn3-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FEFAE0;fontSize=14;labelBackgroundColor=none;" value="Project" vertex="1">
-          <mxGeometry height="30" width="100" x="40" y="540" as="geometry" />
+          <mxGeometry height="30" width="100" x="40" y="546" as="geometry" />
         </mxCell>
         <mxCell id="NQuBBVoxGW89ZrMEEAn3-107" parent="NQuBBVoxGW89ZrMEEAn3-48" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#BC6C25;strokeColor=#DDA15E;align=left;spacingLeft=4;fontSize=17;fontColor=#FEFAE0;labelPosition=right;labelBackgroundColor=none;" value="New website from scratch" vertex="1">
           <mxGeometry height="15" width="15" x="52" y="590" as="geometry" />

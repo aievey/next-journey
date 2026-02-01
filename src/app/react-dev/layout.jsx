@@ -19,8 +19,8 @@ const linkList = [
 ];
 const ReactLayout = ({ children }) => {
   return (
-    <div className="grid h-full grid-cols-4 bg-cyan-700 text-cyan-50">
-      <div className="flex flex-col gap-4 bg-cyan-800 p-2 md:p-4">
+    <div className="grid h-full grid-cols-4 bg-stone-900 text-cyan-50">
+      <div className="flex flex-col gap-4 bg-stone-800 p-2 md:p-4">
         <Link href="/react-dev" className="font-bold">
           Home
         </Link>
@@ -28,14 +28,14 @@ const ReactLayout = ({ children }) => {
           {linkList.map((link) => (
             <Link
               key={link.id}
-              className="rounded-md p-1 text-sm duration-200 hover:bg-cyan-600 hover:shadow md:px-3 md:text-lg"
+              className="rounded-md p-1 text-sm duration-200 hover:bg-cyan-800 hover:shadow md:px-3 md:text-lg"
               href={link.url}
             >
               {link.name}
             </Link>
           ))}
         </div>
-        <Link href="/" className="mt-auto font-semibold text-purple-400">
+        <Link href="/" className="mt-auto font-semibold text-purple-600">
           Home
         </Link>
       </div>
