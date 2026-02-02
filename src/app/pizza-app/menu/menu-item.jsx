@@ -1,7 +1,7 @@
 import { formatCurrency } from "@/lib/pizza-app-lib/helpers";
 import Image from "next/image";
 function MenuItem({ pizza }) {
-  const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
+  const { name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   return (
     <li className="flex gap-4 py-2 pl-3 text-stone-800">
@@ -10,7 +10,7 @@ function MenuItem({ pizza }) {
         width={100}
         src={imageUrl}
         alt={name}
-        className={`rounded-xl ${soldOut ? "opacity-70 grayscale" : ""} `}
+        className={`rounded-lg ${soldOut ? "opacity-70 grayscale" : ""} `}
       />
       <div className="flex w-full flex-col">
         <p className="font-bold tracking-widest">{name}</p>

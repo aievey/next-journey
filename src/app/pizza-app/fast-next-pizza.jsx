@@ -1,6 +1,6 @@
 import CartOverview from "./cart/CartOverview";
 import CreateUser from "./user/welcome-ask-userName";
-export default async function PizzaMenu() {
+export default function PizzaMenu() {
   return (
     <>
       <div className="flex h-full w-full flex-col justify-center bg-amber-50">
