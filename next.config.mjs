@@ -7,9 +7,13 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "dclaevazetcjjkrzczpc.supabase.co",
-        port: "",
+        hostname: "i.imgur.com",
         pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "dclaevazetcjjkrzczpc.supabase.co",
+        pathname: "/storage/v1/object/public/pizzas/**",
       },
     ],
   },
